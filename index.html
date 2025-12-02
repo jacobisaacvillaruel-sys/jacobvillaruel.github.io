@@ -1,63 +1,62 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name — Multimedia Portfolio</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacob Villaruel | Multimedia Designer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
+  <header>
     <div class="container">
-      <h1>Your Name</h1>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects/branding.html">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <h1>Jacob Villaruel</h1>
+      <p>Multimedia Designer | Motion Graphics | Video | Branding</p>
     </div>
   </header>
 
-  <main class="hero-section">
-    <div class="container">
-      <h2>Bringing ideas to life with creativity</h2>
-      <p>With over 20 years of experience in multimedia design — I create high-quality, engaging designs that combine creativity with strategy. From small projects to large campaigns, I pay attention to detail, adapt, and am passionate about impactful design.</p>
-      <a class="btn" href="about.html">More about me</a>
-    </div>
-  </main>
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p>Hello! I'm Jacob Villaruel, a multimedia designer with experience in motion graphics, video animation, branding, and e-learning content. I create visuals that engage and inspire.</p>
+  </section>
 
-  <section class="services-overview container">
-    <div class="service">
-      <h3>Branding</h3>
-      <p>More than just a logo — a lasting identity that tells your story and connects.</p>
-      <a href="projects/branding.html">See work →</a>
-    </div>
-    <div class="service">
-      <h3>Print</h3>
-      <p>Tangible, timeless, and powerful — print design brings your brand to life.</p>
-      <a href="projects/print.html">See work →</a>
-    </div>
-    <div class="service">
-      <h3>Packaging</h3>
-      <p>Thoughtfully designed packaging turns products into experiences.</p>
-      <a href="projects/packaging.html">See work →</a>
-    </div>
-    <div class="service">
-      <h3>Video & Motion Graphics</h3>
-      <p>Dynamic visuals that engage, inform, and leave a lasting impact.</p>
-      <a href="projects/video.html">See work →</a>
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="assets/images/project1.jpg" alt="Project 1">
+        <h3>Project Title 1</h3>
+        <p>Motion graphics and animation work for branding campaigns.</p>
+      </div>
+      <div class="card">
+        <img src="assets/images/project2.jpg" alt="Project 2">
+        <h3>Project Title 2</h3>
+        <p>E-learning video production and instructional design content.</p>
+      </div>
+      <div class="card">
+        <img src="assets/images/project3.jpg" alt="Project 3">
+        <h3>Project Title 3</h3>
+        <p>Illustration, UI design, and multimedia assets for marketing.</p>
+      </div>
     </div>
   </section>
 
-  <footer id="contact" class="site-footer container">
-    <h4>Let's team up</h4>
-    <p>Email: your.email@example.com</p>
-    <p>Phone: +63 9XX XXX XXXX</p>
-    <p>Let’s stay creative! Catch me on social media.</p>
+  <section id="showreel" class="container">
+    <h2>Showreel</h2>
+    <video controls>
+      <source src="assets/videos/showreel.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:you@jacobvillaruel.com">you@jacobvillaruel.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/jacobvillaruel" target="_blank">linkedin.com/in/jacobvillaruel</a></p>
+    <p>Phone: +63 XXX XXX XXXX</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Jacob Villaruel. All rights reserved.</p>
   </footer>
 </body>
 </html>
